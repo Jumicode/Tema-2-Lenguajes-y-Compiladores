@@ -205,7 +205,7 @@ class panel_operador:
             SeleccionDeIngrediente = int(
                 input("\n Selecciona el número del ingrediente a recargar:"))
 
-            if 8 in SeleccionDeIngrediente or 8 == SeleccionDeIngrediente:
+            if SeleccionDeIngrediente == 8:
                 system("cls")
                 return
 
